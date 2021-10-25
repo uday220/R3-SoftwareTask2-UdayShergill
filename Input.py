@@ -3,7 +3,7 @@ import pynput
 from pynput import keyboard
 TCP_IP = '127.0.0.1'
 TCP_PORT = 2003
-BUFFER_SIZE = 2048321
+BUFFER_SIZE = 2048
 def on_press(key):
     motor1 = "f"
     motor2 = "f"
